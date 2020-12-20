@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.ciyo</groupId>
+    <artifactId>shangcheng</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>Common</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>common-redis</module>
+  	<module>common-unitl</module>
+  	<module>common-mysql</module>
+  	<module>common-server</module>
+  	<module>common-exception</module>
+  	<module>common-security</module>
+  </modules>
+</project>
